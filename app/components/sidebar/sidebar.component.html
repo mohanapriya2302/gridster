@@ -1,0 +1,21 @@
+<body>
+<mat-nav-list>
+	<a mat-list-item routerLink="/signin" (click)="onSidenavClose()">
+		<mat-icon>home</mat-icon> 
+		<span class="nav-caption">Home</span>
+	</a>
+	<a mat-list-item routerLink="/first" (click)="onSidenavClose()">
+		<mat-icon>assignment_ind</mat-icon> 
+		<span class="nav-caption">Employee Details</span>   
+	</a>
+		<mat-list-item [matMenuTriggerFor]="menu">
+			<mat-icon>unfold_more</mat-icon>
+			<a matline>Actions</a>
+		</mat-list-item>
+		<mat-menu #menu="matMenu">
+		  <button mat-menu-item (click)="onSidenavClose()"><a routerLink='/first'>View profile</a></button>
+		  <button mat-menu-item (click)="onSidenavClose()"><a routerLink='/home'>Edit profile</a></button>
+		</mat-menu>
+  </mat-nav-list>
+</body>
+

@@ -1,0 +1,35 @@
+.full-width{
+    width: 80%;
+}
+.card{
+    width:40%;
+    margin: 10px;
+}
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left:30px;
+    margin-left:75px;
+    color: blue;
+    font-size:25px;
+}
+.gender{
+  margin-right: 10px;
+}
+
+.signin
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn
+{
+    background-color: rgb(81, 52, 206);
+    padding:8px;
+    margin:5px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+.btn:hover
+{
+    opacity:0.8;
+}
