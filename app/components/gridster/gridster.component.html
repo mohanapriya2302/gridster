@@ -1,0 +1,38 @@
+<gridster [options]="options">
+    <gridster-item [item]="this.item1" #gridsterItem>
+        <bar
+            [unitHeight]="unitHeight"
+            [item]="item1">
+        </bar>
+    </gridster-item>
+    <gridster-item [item]="this.item2" #gridsterItem>
+        <column
+            [unitHeight]="unitHeight"
+            [item]="item2">
+    </column>
+    </gridster-item>
+    <gridster-item [item]="this.item3" #gridsterItem>
+        <pie
+            [unitHeight]="unitHeight"
+            [item]="item3">
+        </pie>
+    </gridster-item>
+      <gridster-item [item]="this.item4" #gridsterItem>
+        <line
+            [unitHeight]="unitHeight"
+            [item]="item4">
+        </line>
+    </gridster-item>
+    <gridster-item [item]="this.item5" #gridsterItem>
+        <scatter
+            [unitHeight]="unitHeight"
+            [item]="item5">
+        </scatter>
+    </gridster-item>
+    <gridster-item [item]="this.item6" #gridsterItem>
+        <app-area
+            [unitHeight]="unitHeight"
+            [item]="item6">
+        </app-area>
+    </gridster-item>
+  </gridster>
