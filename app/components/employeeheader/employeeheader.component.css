@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+a:hover, a:active{
+    color: lightgray;
+}
+
+#navigation{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+mat-toolbar{
+    border-radius: 3px;
+}
+ul li {
+    list-style: none;
+  }
+

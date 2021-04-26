@@ -1,0 +1,27 @@
+<body>
+	<mat-nav-list class="list-nav">
+				<h2 matSubheader>Pages</h2>
+				<a mat-list-item routerLink="/first" (click)="onSidenavClose()">
+					<mat-icon>home</mat-icon> 
+					<span class="nav-caption">Dashboard</span>
+				</a>
+				<a mat-list-item routerLink="/home" (click)="onSidenavClose()">
+					<mat-icon>assignment_ind</mat-icon> 
+					<span class="nav-caption">Registered Users</span>   
+				</a>
+				<a mat-list-item routerLink="/" (click)="onSidenavClose()">
+					<mat-icon>assignment</mat-icon> 
+					<span class="nav-caption">Articles</span>   
+				</a>
+					
+				<mat-divider></mat-divider>
+		
+				<h2 matSubheader>Tools</h2>
+			
+				<a mat-list-item routerLink="/" (click)="onSidenavClose()">
+					<mat-icon>import_contacts</mat-icon>
+					Contacts
+				</a>
+			  </mat-nav-list>
+			</body> 
+
